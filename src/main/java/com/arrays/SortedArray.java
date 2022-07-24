@@ -27,3 +27,7 @@ public class SortedArray {
 		System.out.println(Arrays.toString(numArr));
 	}
 }
+
+/*
+ *  Output:  [2, 5, 8, 12, 19, 24, 34, 56, 65, 69]
+ */

@@ -29,3 +29,14 @@ public class AddElementToArray2 {
 		scanner.close();
 	}
 }
+
+/*
+ *  Output: 
+ *  
+ *  Enter the number of elements you want to add: 
+ *  3
+ *  Enter the 9 Elements: 66
+ *  Enter the 10 Elements: 77
+ *  Enter the 11 Elements: 88
+ *  1, 2, 3, 4, 5, 6, 7, 8, 66, 77, 88, 
+ */

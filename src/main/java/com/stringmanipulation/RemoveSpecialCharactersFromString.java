@@ -16,5 +16,6 @@ public class RemoveSpecialCharactersFromString {
 		*/
 		String characters = input.replaceAll("[^a-zA-Z0-9]", "");
 		System.out.println(characters);
+		
 	}
 }

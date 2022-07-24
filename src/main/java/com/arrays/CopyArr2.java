@@ -7,7 +7,11 @@ public class CopyArr2 {
 		int[] copyto = java.util.Arrays.copyOfRange(copyfrom, 1, 7);
 		
 		for(int cc:copyto) {
-			System.out.println(cc);
+			System.out.print(cc+" ");
 		}
 	}
 }
+
+/*
+ *  Output:  20 30 40 50 60 70
+ */

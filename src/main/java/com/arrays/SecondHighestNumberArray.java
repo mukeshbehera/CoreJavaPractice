@@ -22,3 +22,8 @@ public class SecondHighestNumberArray {
 		System.out.println("Second Highest Value: "+numArr[1]);
 	}
 }
+
+/*
+ *  Output:  [69, 65, 56, 34, 24, 19, 12, 8, 5, 2]
+ *  		 Second Highest Value: 65
+ */

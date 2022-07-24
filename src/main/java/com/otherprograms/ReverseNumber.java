@@ -17,3 +17,7 @@ public class ReverseNumber {
 		System.out.println(revNum);
 	}
 }
+
+/*
+ *   Output:	987654321
+ */

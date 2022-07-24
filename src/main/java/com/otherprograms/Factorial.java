@@ -6,13 +6,12 @@ public class Factorial {
 
 	public static void main(String[] args) {
 
-		int factorial = 1;
 		Scanner scanner = new Scanner(System.in);
-
 		System.out.println("Enter The Number: ");
 		int input = scanner.nextInt();
 		scanner.close();
 
+		int factorial = 1;
 		for (int i = 1; i <= input; i++) {
 			factorial = factorial * i;
 		}
@@ -21,3 +20,9 @@ public class Factorial {
 
 	}
 }
+
+/**
+ *  Output:  Enter The Number: 5
+ *  		 Factorial of 5 is 120
+ *
+ */

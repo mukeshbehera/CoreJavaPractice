@@ -2,6 +2,7 @@ package com.otherprograms;
 
 import java.util.Arrays;
 
+
 public class Intersection {
 
 	public static void main(String[] args) {
@@ -22,3 +23,10 @@ public class Intersection {
 		}
 	}
 }
+
+/**
+ *  Output:  Value of X : 1, 2, 3, 4, 5, 6
+ *  		 Value of y : 4, 5, 6, 7, 8, 9
+ *  		 Intersection of X and Y is : 4, 5, 6, 
+ *
+ */

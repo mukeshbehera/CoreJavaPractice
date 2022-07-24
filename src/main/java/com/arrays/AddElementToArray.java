@@ -18,7 +18,11 @@ public class AddElementToArray {
 		newArray[arr.length] = numToBeAdded;
 		
 		
-		//printing using for advance loop
+		//printing
 		System.out.println(Arrays.toString(newArray));
 	}
 }
+
+/*
+ *  Output:  [1, 2, 3, 4, 5, 6, 7, 8, 9]
+ */

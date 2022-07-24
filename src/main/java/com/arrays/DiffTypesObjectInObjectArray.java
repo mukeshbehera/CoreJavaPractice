@@ -51,3 +51,13 @@ class Student {
 		this.sname = sname;
 	}
 }
+
+
+/*
+ *  Output:  111----ratan
+ *  		 10
+ *  		 1----anu
+ *  		 null
+ *  		 null
+ *  		 null
+ */

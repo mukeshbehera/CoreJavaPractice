@@ -22,3 +22,12 @@ public class TakingDynamicInputArray {
 		scanner.close();
 	}
 }
+
+/*
+ *  Output:  Enter 0 Value: 3
+ *  		 Enter 1 Value: 5
+ *  		 Enter 2 Value: 6
+ *  		 Enter 3 Value: 8
+ *  		 Enter 4 Value: 9
+ *  		 Entered Values Are: 3, 5, 6, 8, 9, 
+ */

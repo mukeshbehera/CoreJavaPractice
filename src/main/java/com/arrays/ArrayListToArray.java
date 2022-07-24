@@ -19,3 +19,7 @@ public class ArrayListToArray {
 			System.out.print(a+" ");
 	}
 }
+
+/*
+ *  Output:  10 20 30 40 
+ */

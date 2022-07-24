@@ -15,3 +15,13 @@ public class AllStringMethods {
 		System.out.println("ratansoft".substring(2, 5)); // tan
 	}
 }
+
+/*
+ *  Output:  true
+ *  		 false
+ *  		 false
+ *  		 true
+ *  		 tan how r u
+ *  		 atan h
+ *  		 tan
+ */

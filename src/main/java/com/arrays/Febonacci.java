@@ -8,7 +8,7 @@ public class Febonacci {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("enter the no required for febonacci");
+		System.out.println("enter the no of febonacci required: ");
 		int noOfFebonacci = scanner.nextInt();
 		System.out.println("enter first no of febonacci");
 		int firstNumber = scanner.nextInt();
@@ -33,3 +33,13 @@ public class Febonacci {
 		}
 	}
 }
+
+/*
+ *  Output:  enter the no of febonacci required: 
+ *  		 10
+ *  		 enter first no of febonacci
+ *  		 1
+ *  		 enter second no of febonacci
+ *  		 2
+ *  		 1 2 3 5 8 13 21 34 55 89
+ */

@@ -30,3 +30,9 @@ public class ArrayToList {
 		System.out.println(arrayList);
 	}
 }
+
+/*
+ *  Output:  [red, green, blue]
+ *  		 [red, green, blue]
+ *  		 [red, green, blue]
+ */

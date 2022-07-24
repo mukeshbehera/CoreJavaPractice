@@ -24,3 +24,7 @@ public class OccuranceOfCharacters {
 		System.out.println(hashMap);
 	}
 }
+
+/*
+ *  Output:  {a=1, r=1, s=1, e=3, u=2, w=1, h=3, y=1, k=1, l=2, m=1, o=3}
+ */

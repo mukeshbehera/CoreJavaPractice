@@ -24,3 +24,9 @@ public class IntersectionOfTwoArrays {
 		}
 	}
 }
+
+/*
+ *  Output:  Value of X is: 1, 2, 3, 4, 5, 6
+ *  		 Value of y is: 6, 7, 5, 8, 9, 4, 12, 16
+ *  		 Intersection of X & Y is: 4,5,6,
+ */

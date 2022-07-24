@@ -18,7 +18,4 @@ final class OwnImmutableClass {
 	public String getAddress() {
 		return address;
 	}
-	
-	
-	
 }

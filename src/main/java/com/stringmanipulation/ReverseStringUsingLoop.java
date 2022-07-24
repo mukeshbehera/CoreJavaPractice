@@ -27,3 +27,10 @@ public class ReverseStringUsingLoop {
 		System.out.println(reverseString);
 	}
 }
+
+/**
+ *  Output:  Enter the String: Hello How Are You
+ *  		 Hello How Are You
+ *  		 uoY erA woH olleH
+ *
+ */

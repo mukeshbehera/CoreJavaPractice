@@ -27,12 +27,12 @@ public class MethodReferenceDemo {
 		thread.start();
 		
 		
-		
 		//instance(non-static) method reference ( Object::methodName )
 		Stuffs obj = new Stuffs();
 		Runnable runnable2 = obj::printNumbers;
 		Thread thread2 = new Thread(runnable2);
 		thread2.start();
+		
 		
 		
 		

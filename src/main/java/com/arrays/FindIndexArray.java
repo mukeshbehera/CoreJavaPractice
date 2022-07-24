@@ -19,3 +19,8 @@ public class FindIndexArray {
 		System.out.println("Index of: "+indexOf+" is: "+indexIz);
 	}
 }
+
+/*
+ *  Output:  Index of: 5 is: 4
+
+ */

@@ -30,3 +30,12 @@ public class HeapSCPobjectsQuestion {
 		System.out.println(s4 == s9);
 	}
 }
+
+/*
+ *  Output:  false
+ *  		 false
+ *  		 true
+ *  		 true
+ *  		 false
+ *  		 true
+ */

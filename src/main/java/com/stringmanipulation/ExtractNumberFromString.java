@@ -16,3 +16,8 @@ public class ExtractNumberFromString {
 		
 	}
 }
+
+/*
+ *  Output:  Enter String that contains Numbers: Hello@1234
+ *  		 Number is: 1234
+ */

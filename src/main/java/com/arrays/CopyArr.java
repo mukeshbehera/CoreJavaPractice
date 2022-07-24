@@ -10,7 +10,11 @@ public class CopyArr {
 		System.arraycopy(copyfrom, 1, copyto, 0,7); //copyfrom index 1 to copyto till index 7 
 		
 		for(int cc:copyto) {
-			System.out.println(cc);
+			System.out.print(cc+" ");
 		}
 	}
 }
+
+/*
+ *  Output:  20 30 40 50 60 70 80 
+ */

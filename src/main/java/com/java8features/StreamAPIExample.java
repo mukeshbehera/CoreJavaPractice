@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class EmployeeStreamDemo {
+public class StreamAPIExample {
 
 	static ArrayList<Employee> employeeList = new ArrayList<Employee>();
 
@@ -55,9 +55,8 @@ public class EmployeeStreamDemo {
 		// method7();
 		System.out.println("\n");
 
-		// get the details of youngest male employee in the product development
-		// department
-		// method8();
+		// get the details of youngest male employee in the product development department
+		method8();
 		System.out.println("\n");
 
 		// Who has the most working experience in the organization

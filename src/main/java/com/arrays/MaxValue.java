@@ -20,3 +20,8 @@ public class MaxValue {
 		System.out.println("Max Value is: "+max);
 	}
 }
+
+/*
+ *  Output:  [34, 56, 8, 24, 69, 19, 2, 5, 12, 65]
+ *  		 Max Value is: 69
+ */

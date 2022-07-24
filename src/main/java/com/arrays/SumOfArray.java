@@ -14,3 +14,7 @@ public class SumOfArray {
 		System.out.println("Sum of the elements is: "+sum);
 	}
 }
+
+/*
+ *  Output:  Sum of the elements is: 150
+ */

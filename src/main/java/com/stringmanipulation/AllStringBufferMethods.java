@@ -43,3 +43,16 @@ public class AllStringBufferMethods {
 		System.out.println("after replaceing the string:-" + sb4);
 	}
 }
+
+/*
+ *  Output:  Mukesh
+ *  		 Mesh
+ *  		 Mesh
+ *  		 Msh
+ *  		 hsM
+ *  		 Mukesh salary 60000
+ *  		 hi ratan
+ *  		 0
+ *  		 9
+ *  		 after replaceing the string:-oy Mukesh hi
+ */

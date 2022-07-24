@@ -6,7 +6,7 @@ public class VowelsCount {
 
 	public static void main(String[] args) {
 
-		String string = "Mukesh Kumar Behera How Are You";
+		String string = "Hello Mukesh How Are You Doing";
 		int count = 0;
 
 		HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
@@ -32,6 +32,7 @@ public class VowelsCount {
 }
 
 /*
- * 		Input:  	Mukesh Kumar Behera How Are You 
- * 		Output: 	{a=2, u=3, e=4, o=2}
+ * 		Input:  	Hello Mukesh How Are You Doing 
+ * 		Output: 	Number Of Vowels: 11
+ * 					{a=1, e=3, u=2, i=1, o=4}
  */
