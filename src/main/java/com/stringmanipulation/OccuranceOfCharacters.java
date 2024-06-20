@@ -1,6 +1,7 @@
 package com.stringmanipulation;
 
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 public class OccuranceOfCharacters {
 
@@ -8,7 +9,8 @@ public class OccuranceOfCharacters {
 		
 		String string = "Hello Mukesh How Are You".toLowerCase();
 		string = string.replaceAll(" ", "");
-		
+
+		// method 1
 		char[] charArr = string.toCharArray();
 		HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
 		
@@ -22,6 +24,24 @@ public class OccuranceOfCharacters {
 		}
 		
 		System.out.println(hashMap);
+
+		// method 2
+		HashMap<Character, Integer> hashMap1 = string.chars()
+													.mapToObj(c -> (char) c)
+													.collect(Collectors.toMap(c -> c,
+																			  c -> 1,
+																			  Integer::sum,
+																			  HashMap::new));
+		System.out.println(hashMap1);
+
+
+		// method 3
+		HashMap<Character, Long> hashMap2 = string.chars()
+												 .mapToObj(c -> (char) c)
+												 .collect(Collectors.groupingBy(c -> c,
+																				HashMap::new,
+																				Collectors.counting()));
+		System.out.println(hashMap2);
 	}
 }
 
