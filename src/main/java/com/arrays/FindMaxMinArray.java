@@ -1,6 +1,7 @@
 package com.arrays;
 
 import java.util.Arrays;
+import java.util.IntSummaryStatistics;
 
 public class FindMaxMinArray {
 
@@ -24,6 +25,12 @@ public class FindMaxMinArray {
 		
 		System.out.println("minimum value is =" + min);
 		System.out.println("maximum value is =" + max);
+
+
+		//Using Stream (can get max, min, average, sum, count)
+		IntSummaryStatistics summary = Arrays.stream(arr)
+											 .summaryStatistics();
+		System.out.println(summary.getMax() + " : " + summary.getMin());
 	}
 }
 

@@ -25,14 +25,20 @@ public class CoinChange {
             if (requiredAmount >= coins[i]) {
                 int numCoins = requiredAmount / coins[i];
 
-                sb.append(coins[i]+":"+numCoins).append(", ");
+                sb.append(coins[i])
+                  .append(":")
+                  .append(numCoins)
+                  .append(", ");
+
                 //updating the requiredAmount
                 requiredAmount = requiredAmount - (coins[i] * numCoins);
             }
         }
         if (requiredAmount != 0) {
-            sb = sb.delete(0, sb.length());
-            return sb.append("-1");
+//            sb = sb.delete(0, sb.length());
+//            return sb.append("-1");
+            sb.append("remainder : ")
+              .append(requiredAmount);
         }
         return sb;
     }

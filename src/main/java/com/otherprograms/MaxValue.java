@@ -16,6 +16,16 @@ public class MaxValue {
 				max = value[i];
 			}
 		}
+
+
+		//using linear time complexity
+		int max1 = 0;
+
+		for (int num : value) {
+			if (num > max1) {
+				max1 = num;  // Update max1 to the current element
+			}
+		}
 		
 		System.out.println("Max Value is : "+max);
 	}

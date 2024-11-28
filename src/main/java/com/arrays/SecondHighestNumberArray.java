@@ -1,6 +1,7 @@
 package com.arrays;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class SecondHighestNumberArray {
 
@@ -20,6 +21,16 @@ public class SecondHighestNumberArray {
 		}
 		System.out.println(Arrays.toString(numArr));
 		System.out.println("Second Highest Value: "+numArr[1]);
+
+
+		//Using Stream
+		Integer secondHighest = Arrays.stream(numArr)
+								.boxed()
+								.sorted(Comparator.reverseOrder())
+								.skip(1)
+								.findFirst()
+								.get();
+		System.out.println("Second Highest Value Using Stream: " + secondHighest);
 	}
 }
 

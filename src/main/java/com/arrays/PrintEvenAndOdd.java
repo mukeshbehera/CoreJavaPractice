@@ -1,5 +1,10 @@
 package com.arrays;
 
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 public class PrintEvenAndOdd {
 
 	public static void main(String[] args) {
@@ -17,6 +22,17 @@ public class PrintEvenAndOdd {
 				System.out.print(i+" ");
 			}
 		}
+
+
+		//Using Stream
+		Map<Boolean, List<Integer>> oddEven = IntStream.rangeClosed(1, 50)
+													   .boxed()
+													   .collect(Collectors.partitioningBy(i -> i % 2 == 0));
+		System.out.println("\nEVEN: ");
+		oddEven.get(true).forEach(integer -> System.out.print(integer + " "));
+
+		System.out.println("\nODD: ");
+		oddEven.get(false).forEach(integer -> System.out.print(integer + " "));
 	}
 }
 

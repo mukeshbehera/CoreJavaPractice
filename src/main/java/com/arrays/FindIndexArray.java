@@ -32,7 +32,7 @@ public class FindIndexArray {
 				 .ifPresentOrElse(i -> System.out.println("Index of: "+indexOf+" is: "+i), () -> System.out.println("Index not found"));
 
 
-		// Using binary search
+		// Using binary search (best if the array is sorted)
 		int index = Arrays.binarySearch(arr, indexOf);
 		System.out.println("Index of: "+indexOf+" is: "+index);
 		// Returns index of the element if found, else returns (-(insertion point) - 1)
