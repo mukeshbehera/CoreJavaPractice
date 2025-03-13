@@ -13,7 +13,12 @@ public class SwapWithoutThirdVariable {
 		a = a + b;
 		b = a - b;
 		a = a - b;
-		
+
+		//using bitwise operator
+//		a = a ^ b;
+//		b = a ^ b;
+//		a = a ^ b;
+
 		System.out.println("After Swaping: a = "+ a +", b = "+b);
 	}
 }

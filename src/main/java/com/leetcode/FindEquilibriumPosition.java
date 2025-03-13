@@ -12,6 +12,7 @@ public class FindEquilibriumPosition {
         for (int num : arr) {
             totalSum += num;
         }
+//        totalSum = Arrays.stream(arr).sum();
 
         // Traverse the array and check for equilibrium position
         for (int i = 0; i < arr.length; i++) {

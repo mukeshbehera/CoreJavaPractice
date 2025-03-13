@@ -1,7 +1,5 @@
 package com.New;
 
-import java.util.HashMap;
-
 public class LongestSubstringExample {
     public static void main(String[] args) {
         String input = "abcabcbb";

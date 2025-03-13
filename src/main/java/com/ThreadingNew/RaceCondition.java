@@ -1,16 +1,28 @@
 package com.ThreadingNew;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.ReentrantLock;
 
 class Counter{
     // declare counter as
     // private AtomicInteger count = new AtomicInteger(0);
+    // ReentrantLock lock = new ReentrantLock();
+
     private int count;
 
     // or declare increment method as synchronized to get correct output
     public synchronized void increment(){
         count++;
     }
+
+    /*public void increment() {
+        lock.lock();
+        try {
+            count++;
+        } finally {
+            lock.unlock();
+        }
+    }*/
 
     public int getCount(){
         return count;

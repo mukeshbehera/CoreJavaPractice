@@ -20,7 +20,24 @@ public class IntersectionOfTwoArrays {
 		System.out.println("Using Stream: " + findIntersectionUsingStream(x,y));
 		System.out.println("Using Stream Time Complexity: " + findIntersectionUsingStreamTimeComplexity(x,y));
 		System.out.println("Using Set Time Complexity: " + findIntersectionUsingSetTimeComplexity(x,y));
+		System.out.println("Using Set: " + findIntersectionUsingSet(x, y));
 
+	}
+
+	private static Set<Integer> findIntersectionUsingSet(int[] x, int[] y) {
+		Set<Integer> set = new HashSet<>();
+		Set<Integer> result = new HashSet<>();
+
+		for (int num : x) {
+			set.add(num);
+		}
+
+		for (int num : y) {
+			if (set.contains(num)) {
+				result.add(num);
+			}
+		}
+		return result;
 	}
 
 	private static ArrayList<Integer> findIntersection(int[] x, int[] y) {
